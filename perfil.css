@@ -1,0 +1,727 @@
+.web-edit-account,
+.web-edit-account * {
+  box-sizing: border-box;
+}
+.web-edit-account {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.header {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 90px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.menu {
+  padding: 9px 0px 9px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 133px;
+  top: 11px;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.shopping-bag {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 586px;
+  top: 35px;
+}
+.sign-in {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.category {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.abous-us {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo-horizontal {
+  width: 193px;
+  height: 55px;
+  position: absolute;
+  left: 162px;
+  top: 17px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group2 {
+  position: absolute;
+  left: 55.43px;
+  top: 16.92px;
+  overflow: visible;
+}
+.featured {
+  background: var(--neutral-white, #ffffff);
+  padding: 100px 250px 100px 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 940px;
+  position: relative;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.profile2 {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.new-collection {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.miembro-desde-2023 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 400 14px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.edit {
+  background: var(--neutral-light-grey, #f3f3f3);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.editar-perfil {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.vuesax-linear-arrow-right {
+  position: absolute;
+  inset: 0;
+}
+.arrow-right2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.orders {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.rdenes {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-right3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.favorites {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.favoritos {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-right4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.configuraci-n {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-right5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-427320520 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.logout {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-right6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+}
+.title2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-collection2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 32px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.frame-427320521 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.profile3 {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.field {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 15px 20px 15px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 50px;
+  position: relative;
+}
+.placeholder {
+  color: var(--neutral-grey, #b9b9b9);
+  text-align: left;
+  font: 400 14px/140% "Nunito", sans-serif;
+  position: relative;
+  width: 239px;
+}
+.upload-document {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.field2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+}
+.title3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 500 14px/140% "Nunito", sans-serif;
+  position: relative;
+}
+.input-area {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-black, #262d33);
+  border-width: 1px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.placeholder2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 400 14px/140% "Nunito", sans-serif;
+  position: relative;
+  width: 275px;
+}
+.input-area2 {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-area3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 400 14px/140% "Nunito", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.postal-code {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+}
+.field3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.input-area4 {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.placeholder3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 400 14px/140% "Nunito", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.arrow-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.agree {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+}
+.record {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.save-this-address-to-my-profile {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 400 12px/150% "Nunito", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.new-collection3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 32px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.button {
+  background: #57c2ef;
+  border-radius: 10px;
+  padding: 13px 24px 13px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+}
+.label {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: var(--urbanist-bold-type-16, 700 16px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+.footer {
+  background: #f3f3f3;
+  padding: 70px 130px 30px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.frame-427320510 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-vertical {
+  flex-shrink: 0;
+  width: 286px;
+  height: 289px;
+  position: relative;
+  overflow: hidden;
+}
+.group3 {
+  position: absolute;
+  left: 25.15px;
+  top: 0px;
+  overflow: visible;
+}
+.group4 {
+  position: absolute;
+  inset: 0;
+}
+.group5 {
+  position: absolute;
+  left: 0.02px;
+  top: 238.18px;
+  overflow: visible;
+}
+.group6 {
+  position: absolute;
+  left: 128.59px;
+  top: 242.35px;
+  overflow: visible;
+}
+.group7 {
+  position: absolute;
+  left: 183.14px;
+  top: 250.49px;
+  overflow: visible;
+}
+.menus {
+  padding: 0px 89px 0px 58px;
+  display: flex;
+  flex-direction: row;
+  gap: 66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 700px;
+  position: relative;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.shop-online {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.menu3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-collection4 {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.categories {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.gallery {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.services {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.interior-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.product-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about2 {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.contact-us {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.stores-copy {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.group-427319792 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 24px;
+  position: static;
+}
+.instagram {
+  position: absolute;
+  left: 1098px;
+  top: 0px;
+  overflow: visible;
+}
+.youtube {
+  position: absolute;
+  left: 1050px;
+  top: 0px;
+  overflow: visible;
+}
+.twitter {
+  position: absolute;
+  left: 1146px;
+  top: 0px;
+  overflow: visible;
+}
+.ayova-design-200 {
+  color: #57c2ef;
+  text-align: center;
+  font: 500 12px/150% "Nunito", sans-serif;
+  position: relative;
+}
