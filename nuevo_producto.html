@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buho gt</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./css/nuevo_producto.css" />
+  </head>
+  <body>
+    <script src="js/nuevo_producto.js"></script>
+    <section>
+      <header class="header">
+        <div class="logo">
+          <img src="./img/logo horizontal.png" alt="Logo de la marca" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Lo más nuevo</a></li>
+            <li><a href="#">Marcas</a></li>
+          </ul>
+        </nav>
+        <ul class="a-links">
+          <!-- 1 -->
+          <a href="#">
+            <svg
+              width="20"
+              height="21"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.3333 13.8333L15.8333 16.3333"
+                stroke="#262D33"
+                stroke-width="1.2"
+              />
+              <circle
+                cx="9.58335"
+                cy="10.0834"
+                r="4.81667"
+                stroke="#262D33"
+                stroke-width="1.2"
+              />
+            </svg>
+          </a>
+          <!-- 2 -->
+          <a href="#">
+            <svg
+              width="20"
+              height="21"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.3333 7.16659C13.3333 5.32564 11.8409 3.83325 9.99998 3.83325C8.15903 3.83325 6.66665 5.32564 6.66665 7.16659M13.3333 9.66659C13.3333 11.5075 11.8409 12.9999 9.99998 12.9999C8.15903 12.9999 6.66665 11.5075 6.66665 9.66659M3.33331 7.16659H16.6666V16.3333C16.6666 17.2537 15.9205 17.9999 15 17.9999H4.99998C4.07951 17.9999 3.33331 17.2537 3.33331 16.3333V7.16659Z"
+                stroke="#262D33"
+                stroke-width="1.2"
+              />
+            </svg>
+          </a>
+          <!-- 3 -->
+          <a href="#">
+            <svg
+              width="20"
+              height="21"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.83335 3.83325C3.53217 3.83325 1.66669 5.69873 1.66669 7.99992C1.66669 8.93792 1.72959 10.0771 2.79727 11.3228C3.86496 12.5684 10 18.0002 10 18.0002C10 18.0002 16.1351 12.5684 17.2028 11.3228C18.2705 10.0771 18.3334 8.93792 18.3334 7.99992C18.3334 5.69873 16.4679 3.83325 14.1667 3.83325C11.8655 3.83325 10 5.69873 10 7.99992C10 5.69873 8.13454 3.83325 5.83335 3.83325Z"
+                stroke="#262D33"
+                stroke-width="1.2"
+              />
+            </svg>
+          </a>
+          <a class="btn" href="#"><button>Sign In</button></a>
+        </ul>
+      </header>
+    </section>
+    <section>
+      <div class="new-collection">
+        <br />
+        <h1>Nuevo producto/servicio</h1>
+      </div>
+      <div class="parrafo1">
+        <p>
+          <br>
+          Gracias por confiar en Buhogt.com para promocionar y vender tus
+          productos y servicios. Llena los campos a continuación y tu producto
+          pronto estará en circulación dentro del marketplace de Buhogt y dentro
+          de tus productos.
+          <br><br><br>
+        </p>
+      </div>
+      <div class="container">
+        <div class="container">
+            <div class="image-and-inputs">
+                <div class="image-input">
+                    <img id="image-upload-display" src="https://dummyimage.com/470x627/" alt="Clic para subir imagen" title="Clic para subir imagen">
+                    <input type="file" id="image-upload" name="image-upload" accept="image/*" style="display: none;">
+                </div>
+                <div class="upper-inputs">
+                    <div class="form-group">
+                        <br><br>
+                        <label for="categories">Categorías(s)*</label><br>
+                        <input type="text" id="categories" name="categories" placeholder="Separa tus categorías con comas">
+                    </div>
+                    <div class="form-group">
+                        <label for="product-name">Nombre del producto o tu servicio *</label><br>
+                        <input type="text" id="product-name" name="product-name" placeholder="Coloca el nombre de tu producto o servicio">
+                    </div>
+                    <div class="form-group">
+                        <label for="brand">Marca</label><br>
+                        <input type="text" id="brand" name="brand" placeholder="Coloca el nombre de tu producto">
+                    </div>
+                    <div class="form-group">
+                        <label for="sizes">Tallas</label><br>
+                        <input type="text" id="sizes" name="sizes" placeholder="Separa tus tallas con comas">
+                    </div>
+                    <div class="form-group">
+                        <label for="colors">Colores</label><br>
+                        <input type="text" id="colors" name="colors" placeholder="Separa los colores con comas">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Precio normal (con impuestos incluidos)*</label><br>
+                        <input type="text" id="price" name="price" placeholder="Coloca el precio unitario de tus productos">
+                    </div>
+                    <div class="form-group">
+                        <label for="discount">Porcentaje de descuento</label><br>
+                        <input type="text" id="discount" name="discount" placeholder="Coloca el precio unitario de tu producto">
+                    </div>
+                </div>
+            </div>
+            <div class="lower-inputs">
+                <div class="form-group">
+                    <label for="description">Descipción: *</label><br>
+                    <textarea id="description" name="description" placeholder="Describe tu producto lo mejor que puedas. Utiliza todas las palabras clave que puedan distinguirlo para que tus potenciales clientes y los buscadores puedan encontrarlo fácilmente."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="details">Tallas y detalles</label><br>
+                    <textarea id="details" name="details" placeholder="Describe si las tallas que manejas son pequeñas o grandes, los materiales que utilizaste o utilizas para crear tus productos o prestar tus servicios, aprovecha este campo para indicar si tus productos contienen alérgenos o si son hechos con productos orgánicos (por ejemplo)"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="history">¿Cómo lo hicieron? / Historia</label><br>
+                    <textarea id="history" name="history" placeholder="Aprovecha este espacio para contar más sobre el proceso con el que trabajas tus productos o servicios. Los consumidores modernos se interesan mucho por prácticas como uso de recursos renovables, procesos artesanales, experiencia/trayectoria, uso de herramientas manuales, entre otras."></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
+<script>
+    document.getElementById('image-upload-display').addEventListener('click', function() {
+    document.getElementById('image-upload').click();
+});
+
+document.getElementById('image-upload').addEventListener('change', function(e) {
+    var reader = new FileReader();
+    reader.onload = function(){
+        var output = document.getElementById('image-upload-display');
+        output.src = reader.result;
+    };
+    reader.readAsDataURL(e.target.files[0]);
+});
+
+</script>
