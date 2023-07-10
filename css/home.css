@@ -86,54 +86,258 @@ body {
 }
 
 /* hero section */
-
-
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
 .hero {
-    max-width: 130rem;
-     margin: 0 auto;
-     align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(2, 65, 139, 0.55), rgba(2, 65, 139, 0.55) ), url(../img/bg.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background: #ffffff;
+  width: 1672px;
+  height: 918px;
+  position: relative;
+  overflow: hidden;
 }
-.h1-hero{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20rem 0;
-    margin: 1rem;
+.hero__bg {
+  position: absolute;
+  left: 0px;
+  top: 23px;
+  overflow: visible;
+}
+.hero__bg2 {
+  opacity: 0.8999999761581421;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.hero__frame-10155 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 39px;
+  position: absolute;
+  left: 130px;
+  top: 240px;
+}
+.hero__frame-4 {
+  flex-shrink: 0;
+  width: 226px;
+  height: 40px;
+  position: relative;
+}
+.hero__womens {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__jersey {
+  width: 721.49px;
+  height: 674px;
+  position: absolute;
+  left: 529.71px;
+  top: 65px;
+  box-shadow: var(
+    --shadow-banner-jersey-box-shadow,
+    -100px 200px 250px 0px rgba(0, 0, 0, 0.5)
+  );
+}
+.hero__next {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 49px;
+  position: absolute;
+  left: 1180px;
+  top: 791px;
+}
+.hero__frame-6 {
+  border-radius: 100px;
+  padding: 13px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__ellipse-1 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--transparant-white-20, rgba(255, 255, 255, 0.2));
+  border-width: 1px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hero__full-arrow-left {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.hero__frame-5 {
+  border-radius: 100px;
+  padding: 13px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__ellipse-2 {
+  position: absolute;
+  left: 0px;
+  top: 1.1px;
+  overflow: visible;
+}
+.hero__full-arrow-right {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.hero__how {
+  width: 551px;
+  height: 236px;
+  position: absolute;
+  left: 130px;
+  top: 604px;
+}
+.hero__rectangle-2 {
+  background: var(--transparant-black-10, rgba(0, 0, 0, 0.1));
+  width: 551px;
+  height: 241px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(50px);
+}
+.hero__how2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 260px;
+  position: absolute;
+  left: 271px;
+  top: 56px;
+}
+.hero__title {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__desc {
+  color: #ffffff;
+  text-align: left;
+  font: var(--urbanist-regular-type-14, 400 14px/150% "Urbanist", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__play {
+  position: absolute;
+  left: 101px;
+  top: 91px;
+  overflow: visible;
+}
+.hero__rectangle-7 {
+  position: absolute;
+  left: 1418px;
+  top: 5px;
+  overflow: visible;
+}
+.hero__rectangle-6 {
+  opacity: 0.949999988079071;
+  position: absolute;
+  left: 1417px;
+  top: 5px;
+  overflow: visible;
+}
+.hero__barcelona {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 118px;
+  height: 20px;
+  position: absolute;
+  left: 1299px;
+  top: 153px;
+}
+.hero__the-liverpool-f-c-stadium-home-shirt-features-highly-breathable-fabric-to-help-keep-sweat-off-your-skin-while-you-cheer-for-your-team-this-product-is-made-from-at-least-75-recycled-polyester-fibres {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px/150% "Nunito", sans-serif;
+  position: absolute;
+  left: 893px;
+  top: 594px;
+  width: 400px;
+  height: 94px;
+}
+.hero__button {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 13px 24px 13px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 164px;
+  height: 59px;
+  position: absolute;
+  left: 893px;
+  top: 781px;
+}
+.hero__label {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 16px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.hero__full-arrow-right3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.hero__de-todo-para-decoraci-n-de-tu-hogar {
+  color: #ffffff;
+  text-align: right;
+  font: 900 96px/105% "Nunito", sans-serif;
+  position: absolute;
+  left: 242px;
+  top: 250px;
+  width: 1003px;
+  height: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.heading-primary {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: right;
-    font-family: Nunito;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 105%;
-    padding: 0 35rem;
-}
 
-.heading-description {
-    color: #FFF;
-    font-family: Nunito;
-    font-size: 1rem;
-    margin-top: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    padding: 0 35rem;
-    display: flex;
-    flex-direction: column;
-}
 
 /* banner */
 .banners {
