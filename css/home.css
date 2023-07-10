@@ -86,54 +86,258 @@ body {
 }
 
 /* hero section */
-
-
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
 .hero {
-    max-width: 130rem;
-     margin: 0 auto;
-     align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(2, 65, 139, 0.55), rgba(2, 65, 139, 0.55) ), url(../img/bg.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background: #ffffff;
+  width: 1672px;
+  height: 918px;
+  position: relative;
+  overflow: hidden;
 }
-.h1-hero{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20rem 0;
-    margin: 1rem;
+.hero__bg {
+  position: absolute;
+  left: 0px;
+  top: 23px;
+  overflow: visible;
+}
+.hero__bg2 {
+  opacity: 0.8999999761581421;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.hero__frame-10155 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 39px;
+  position: absolute;
+  left: 130px;
+  top: 240px;
+}
+.hero__frame-4 {
+  flex-shrink: 0;
+  width: 226px;
+  height: 40px;
+  position: relative;
+}
+.hero__womens {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__jersey {
+  width: 721.49px;
+  height: 674px;
+  position: absolute;
+  left: 529.71px;
+  top: 65px;
+  box-shadow: var(
+    --shadow-banner-jersey-box-shadow,
+    -100px 200px 250px 0px rgba(0, 0, 0, 0.5)
+  );
+}
+.hero__next {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 49px;
+  position: absolute;
+  left: 1180px;
+  top: 791px;
+}
+.hero__frame-6 {
+  border-radius: 100px;
+  padding: 13px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__ellipse-1 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--transparant-white-20, rgba(255, 255, 255, 0.2));
+  border-width: 1px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hero__full-arrow-left {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.hero__frame-5 {
+  border-radius: 100px;
+  padding: 13px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__ellipse-2 {
+  position: absolute;
+  left: 0px;
+  top: 1.1px;
+  overflow: visible;
+}
+.hero__full-arrow-right {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.hero__how {
+  width: 551px;
+  height: 236px;
+  position: absolute;
+  left: 130px;
+  top: 604px;
+}
+.hero__rectangle-2 {
+  background: var(--transparant-black-10, rgba(0, 0, 0, 0.1));
+  width: 551px;
+  height: 241px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(50px);
+}
+.hero__how2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 260px;
+  position: absolute;
+  left: 271px;
+  top: 56px;
+}
+.hero__title {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__desc {
+  color: #ffffff;
+  text-align: left;
+  font: var(--urbanist-regular-type-14, 400 14px/150% "Urbanist", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__play {
+  position: absolute;
+  left: 101px;
+  top: 91px;
+  overflow: visible;
+}
+.hero__rectangle-7 {
+  position: absolute;
+  left: 1418px;
+  top: 5px;
+  overflow: visible;
+}
+.hero__rectangle-6 {
+  opacity: 0.949999988079071;
+  position: absolute;
+  left: 1417px;
+  top: 5px;
+  overflow: visible;
+}
+.hero__barcelona {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 118px;
+  height: 20px;
+  position: absolute;
+  left: 1299px;
+  top: 153px;
+}
+.hero__the-liverpool-f-c-stadium-home-shirt-features-highly-breathable-fabric-to-help-keep-sweat-off-your-skin-while-you-cheer-for-your-team-this-product-is-made-from-at-least-75-recycled-polyester-fibres {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px/150% "Nunito", sans-serif;
+  position: absolute;
+  left: 893px;
+  top: 594px;
+  width: 400px;
+  height: 94px;
+}
+.hero__button {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 13px 24px 13px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 164px;
+  height: 59px;
+  position: absolute;
+  left: 893px;
+  top: 781px;
+}
+.hero__label {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 16px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.hero__full-arrow-right3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.hero__de-todo-para-decoraci-n-de-tu-hogar {
+  color: #ffffff;
+  text-align: right;
+  font: 900 96px/105% "Nunito", sans-serif;
+  position: absolute;
+  left: 242px;
+  top: 250px;
+  width: 1003px;
+  height: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.heading-primary {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: right;
-    font-family: Nunito;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 105%;
-    padding: 0 35rem;
-}
 
-.heading-description {
-    color: #FFF;
-    font-family: Nunito;
-    font-size: 1rem;
-    margin-top: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    padding: 0 35rem;
-    display: flex;
-    flex-direction: column;
-}
 
 /* banner */
 .banners {
@@ -621,4 +825,537 @@ body {
   position: relative;
   overflow: visible;
 }
+
+/* banner */
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+.about__bg {
+  flex-shrink: 0;
+  width: 1420px;
+  height: 378px;
+  position: relative;
+}
+.about__frame-427320525 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 156px;
+  top: 57px;
+}
+.about__aprovecha-nuestro-descuento-del-20-en-servicios-menores {
+  color: #252525;
+  text-align: left;
+  font: 700 46px/56px "Hind", sans-serif;
+  position: relative;
+}
+.about__frame-427320524 {
+  background: #fdc114;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 221px;
+  position: relative;
+}
+.about__go-to-shop {
+  color: #252a61;
+  text-align: left;
+  font: 500 18px/18px "Nunito", sans-serif;
+  position: relative;
+}
+
+
+
+/* servicios */
+
+.frame-427320523,
+.frame-427320523 * {
+  box-sizing: border-box;
+}
+.frame-427320523 {
+  background: #ffffff;
+  padding: 52px 46px 52px 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__frame-427320522 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427320523__servicios-destacados {
+  color: #252525;
+  text-align: left;
+  font: 700 54px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-427320523__frame-427320520 {
+  background: #ffffff;
+  padding: 2px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 91px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 1444px;
+  height: 667px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__frame-427320519 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 458px;
+  height: 665px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__bg {
+  background: linear-gradient(
+    to left,
+    rgba(37, 42, 97, 0.51),
+    rgba(37, 42, 97, 0.51)
+  );
+  width: 458px;
+  height: 665px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-427320523__frame-427320521 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  left: 22px;
+  top: 395px;
+}
+.frame-427320523__construcciones-don-chito-alba-iler-a {
+  color: #ffffff;
+  text-align: left;
+  font: 700 28px/34px "Hind", sans-serif;
+  position: relative;
+  width: 308px;
+}
+.frame-427320523__button {
+  background: #fdc114;
+  border-radius: 50px;
+  padding: 5px 22px 5px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 113px;
+  height: 31px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__contratar {
+  color: #ffffff;
+  text-align: center;
+  font: 700 12px/12px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-427320523__card-ui {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 402px;
+  height: 618px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__rectangle-84 {
+  flex-shrink: 0;
+  width: 402px;
+  height: 396px;
+  position: relative;
+}
+.frame-427320523__heat {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320523__description-card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 402px;
+  height: 212px;
+  position: relative;
+}
+.frame-427320523__new-collection {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+  width: 392px;
+}
+.frame-427320523__frame-427320511 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 258px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+}
+.frame-427320523__we-are-proud-of-our {
+  color: var(--neutral-dark-grey, #737373);
+  text-align: left;
+  font: 400 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.frame-427320523__stars {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427320523__star {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320523__we-are-proud-of-our2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-16, 600 16px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+.frame-427320523__frame-427320512 {
+  padding: 10px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  height: 46px;
+  position: relative;
+}
+.frame-427320523__new-collection2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-24, 600 24px/150% "Urbanist", sans-serif);
+  position: relative;
+  width: 73px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-427320523__heat2 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320523__star3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320523__frame-4273205212 {
+  background: #ffffff;
+  padding: 2px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 91px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 1444px;
+  height: 667px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320523__heat3 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320523__star5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320523__heat4 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320523__star7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* recom */
+.recomeda{
+  padding: 5rem 0;
+}
+.frame-427320526,
+.frame-427320526 * {
+  box-sizing: border-box;
+}
+.frame-427320526 {
+  background: #ffffff;
+  width: 1431px;
+  height: 532px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 2rem 0; */
+}
+.frame-427320526__recom {
+  position: absolute;
+  inset: 0;
+}
+.frame-427320526__img-1 {
+  width: 455px;
+  height: 455px;
+  position: static;
+}
+.frame-427320526__bg {
+  border-radius: 50%;
+  width: 455px;
+  height: 455px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-427320526__img-2 {
+  width: 215px;
+  height: 215px;
+  position: static;
+}
+.frame-427320526__bg2 {
+  background: #fdc114;
+  border-radius: 50%;
+  width: 215px;
+  height: 215px;
+  position: absolute;
+  left: 240px;
+  top: 317px;
+}
+.frame-427320526__img-3 {
+  width: 200px;
+  height: 200px;
+  position: static;
+}
+.frame-427320526__bg3 {
+  background: #57c2ef;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1231px;
+  top: 102px;
+}
+.frame-427320526__reco {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 246px;
+  position: absolute;
+  left: 480px;
+  top: 143px;
+}
+.frame-427320526__best-sport-shop {
+  color: #fdc114;
+  text-align: left;
+  font: 500 16px/24px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-427320526__recomendad-simo {
+  color: #57c2ef;
+  text-align: left;
+  font: 700 54px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-427320526__sed-pretium-turpis-id-orci-molestie-vitae-placerat-ligula-vulputate-duis-volutpat-ante-sed-laoreet-tempus-vivamus-diam-purus-vehicula-ac-tortor-ut-dictum-vestibulum-nisi-nulla-condimentum-felis-quis-augue-viverra-et-tempor-arcu-dapibus {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/24px "Nunito", sans-serif;
+  position: relative;
+  width: 698px;
+}
+.frame-427320526__frame-427320528 {
+  background: #252a61;
+  border-radius: 9px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427320526__vende-en-buhogt {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px/18px "Nunito", sans-serif;
+  position: relative;
+}
+
+
+
+/* suscrib */
+.board-gen{
+  display:flex;
+  justify-content:center;
+  padding-top: 3rem;
+}
+.board,
+.board * {
+  box-sizing: border-box;
+}
+.board {
+  background: #252a61;
+  padding: 80px 100px 80px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1186px;
+  position: relative;
+}
+.board__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 800px;
+  height: 103px;
+  position: relative;
+}
+.board__suscr-bete-a-nuestra-newsletter {
+  color: var(--neutral-white, #ffffff);
+  text-align: center;
+  font: 700 42px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.board__ingresa-tu-correo-electr-nico-en-el-campo-de-abajo-dale-click-al-bot-n-y-listo-no-te-perder-s-de-ning-n-nuevo-ingreso-a-buhogt-com {
+  color: #bee6f4;
+  text-align: center;
+  font: 400 18px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.board__field {
+  background: var(--neutral-white, #ffffff);
+  border-radius: 10px;
+  padding: 10px 10px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.board__cu-l-es-tu-correo-electr-nico {
+  color: var(--neutral-grey, #b9b9b9);
+  text-align: left;
+  font: 400 20px/120% "DM Sans", sans-serif;
+  position: relative;
+}
+.board__button {
+  background: #fdc114;
+  border-radius: 10px;
+  padding: 13px 24px 13px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.board__label {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: var(--urbanist-bold-type-16, 700 16px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+
+/* footer */
+
+
 
