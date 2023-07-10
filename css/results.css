@@ -1,0 +1,547 @@
+/* Menu nav */
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 90px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.menu {
+  padding: 9px 0px 9px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 130px;
+  top: 25px;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.shopping-bag {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.sign-in {
+  color: var(--neutral-black, #262d33);
+  text-align: right;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 586px;
+  top: 35px;
+}
+.sign-in2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.category {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.abous-us {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo-horizontal {
+  width: 193px;
+  height: 55px;
+  position: absolute;
+  left: 162px;
+  top: 17px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group2 {
+  position: absolute;
+  left: 55.43px;
+  top: 16.92px;
+  overflow: visible;
+}
+/* ---------------------------- */
+.new-collection,
+.new-collection * {
+  box-sizing: border-box;
+}
+.new-collection {
+  color: var(--neutral-black, #262d33);
+  text-align: center;
+  font: 700 72px/130% "Nunito", sans-serif;
+  position: relative;
+}
+
+/* ------------------------------------------------ */
+
+.featured,
+.featured * {
+  box-sizing: border-box;
+}
+.featured {
+  background: var(--neutral-white, #ffffff);
+  padding: 100px 130px 100px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+.new-collection {
+  color: var(--neutral-black, #262d33);
+  text-align: center;
+  font: 700 72px/130% "Nunito", sans-serif;
+  position: relative;
+}
+.filter-sort {
+  border-style: solid;
+  border-color: var(--neutral-soft-grey, #e7e7e7);
+  border-width: 1px;
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1180px;
+  height: 80px;
+  position: relative;
+}
+.filter {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.we-are-proud-of-our {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.arrow-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.arrow-down3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.arrow-down5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.arrow-down7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.arrow-down9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.arrow-down11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.sort {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.arrow-down13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.component-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.hover {
+  flex-shrink: 0;
+  width: 370px;
+  height: 460px;
+  position: relative;
+}
+.product {
+  background: var(--neutral-light-grey, #f3f3f3);
+  padding: 50px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 460px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-84 {
+  flex-shrink: 0;
+  width: 330px;
+  height: 410px;
+  position: relative;
+}
+.brand {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, #ffffff, #ffffff);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.wishlist {
+  background: var(--neutral-white, #ffffff);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 296px;
+  top: 30px;
+}
+.heart {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-collection2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.frame-427320509 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.we-are-proud-of-our2 {
+  color: var(--neutral-dark-grey, #737373);
+  text-align: left;
+  font: 400 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.star {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.we-are-proud-of-our3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-16, 600 16px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+.new-collection3 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-24, 600 24px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+.products2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.heart3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320508 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.disc {
+  flex-shrink: 0;
+  width: 71px;
+  height: 36px;
+  position: relative;
+}
+.new-collection4 {
+  color: var(--neutral-grey, #b9b9b9);
+  text-align: left;
+  font: var(--urbanist-regular-type-24, 400 24px/150% "Urbanist", sans-serif);
+  position: absolute;
+  left: calc(50% - 35.5px);
+  top: calc(50% - 18px);
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--neutral-grey, #b9b9b9);
+  border-width: 1px 0 0 0;
+  position: absolute;
+  right: -69px;
+  left: 70px;
+  bottom: 19px;
+  top: 17px;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.we-are-proud-of-our4 {
+  color: var(--secondary-red, #d6484c);
+  text-align: right;
+  font: var(--urbanist-semibold-type-18, 600 18px/150% "Urbanist", sans-serif);
+  position: relative;
+  width: 277px;
+}
+.component-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.heart5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.component-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.heart11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.star17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.loading {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(196, 196, 196, 1) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
