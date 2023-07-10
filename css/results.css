@@ -1,7 +1,14 @@
-/* Menu nav */
-.header,
-.header * {
+.resultados,
+.resultados * {
   box-sizing: border-box;
+}
+.resultados {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
 }
 .header {
   flex-shrink: 0;
@@ -119,24 +126,6 @@
   left: 55.43px;
   top: 16.92px;
   overflow: visible;
-}
-/* ---------------------------- */
-.new-collection,
-.new-collection * {
-  box-sizing: border-box;
-}
-.new-collection {
-  color: var(--neutral-black, #262d33);
-  text-align: center;
-  font: 700 72px/130% "Nunito", sans-serif;
-  position: relative;
-}
-
-/* ------------------------------------------------ */
-
-.featured,
-.featured * {
-  box-sizing: border-box;
 }
 .featured {
   background: var(--neutral-white, #ffffff);
@@ -312,7 +301,7 @@
   left: 296px;
   top: 30px;
 }
-.heart {
+.heart3 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -384,7 +373,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.heart3 {
+.heart5 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -454,7 +443,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.heart5 {
+.heart7 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -464,7 +453,7 @@
   position: relative;
   overflow: visible;
 }
-.heart7 {
+.heart9 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -474,7 +463,7 @@
   position: relative;
   overflow: visible;
 }
-.heart9 {
+.heart11 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -493,7 +482,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.heart11 {
+.heart13 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -503,7 +492,7 @@
   position: relative;
   overflow: visible;
 }
-.heart13 {
+.heart15 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -513,7 +502,7 @@
   position: relative;
   overflow: visible;
 }
-.heart15 {
+.heart17 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -523,7 +512,7 @@
   position: relative;
   overflow: visible;
 }
-.heart17 {
+.heart19 {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
@@ -543,5 +532,199 @@
   flex-shrink: 0;
   width: 50px;
   height: 50px;
+  position: relative;
+}
+.footer {
+  background: #f3f3f3;
+  padding: 70px 130px 30px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.frame-427320510 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-vertical {
+  flex-shrink: 0;
+  width: 286px;
+  height: 289px;
+  position: relative;
+  overflow: hidden;
+}
+.group3 {
+  position: absolute;
+  left: 25.15px;
+  top: 0px;
+  overflow: visible;
+}
+.group4 {
+  position: absolute;
+  inset: 0;
+}
+.group5 {
+  position: absolute;
+  left: 0.02px;
+  top: 238.18px;
+  overflow: visible;
+}
+.group6 {
+  position: absolute;
+  left: 128.59px;
+  top: 242.35px;
+  overflow: visible;
+}
+.group7 {
+  position: absolute;
+  left: 183.14px;
+  top: 250.49px;
+  overflow: visible;
+}
+.menus {
+  padding: 0px 89px 0px 58px;
+  display: flex;
+  flex-direction: row;
+  gap: 66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 700px;
+  position: relative;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.shop-online {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.menu3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-collection5 {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.categories {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.gallery {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.services {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.interior-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.product-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about2 {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.contact-us {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.stores-copy {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.group-427319792 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 24px;
+  position: static;
+}
+.instagram {
+  position: absolute;
+  left: 1098px;
+  top: 0px;
+  overflow: visible;
+}
+.youtube {
+  position: absolute;
+  left: 1050px;
+  top: 0px;
+  overflow: visible;
+}
+.twitter {
+  position: absolute;
+  left: 1146px;
+  top: 0px;
+  overflow: visible;
+}
+.ayova-design-200 {
+  color: #57c2ef;
+  text-align: center;
+  font: 500 12px/150% "Nunito", sans-serif;
   position: relative;
 }
