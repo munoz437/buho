@@ -1,0 +1,1696 @@
+._07-product-2,
+._07-product-2 * {
+  box-sizing: border-box;
+}
+._07-product-2 {
+  background: #ffffff;
+  width: 1920px;
+  height: 4653px;
+  position: relative;
+  overflow: hidden;
+}
+.page-title {
+  position: absolute;
+  inset: 0;
+}
+.content {
+  width: 1459px;
+  height: 330px;
+  position: static;
+}
+.bread-crumbs {
+  width: 260px;
+  height: 24px;
+  position: static;
+}
+.home {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 243px;
+  top: 162px;
+}
+.shop {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 321px;
+  top: 162px;
+}
+. {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 373px;
+  top: 162px;
+}
+.product-page-2 {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 162px;
+}
+.2 {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 301px;
+  top: 162px;
+}
+.product-info {
+  position: absolute;
+  inset: 0;
+}
+.price {
+  width: 109px;
+  height: 36px;
+  position: static;
+}
+.q-30 {
+  color: #05297f;
+  text-align: left;
+  font: 900 24px/36px "Nunito", sans-serif;
+  position: absolute;
+  left: 979px;
+  top: 498px;
+}
+.por-hora {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1034px;
+  top: 507px;
+}
+.review {
+  width: 222px;
+  height: 18px;
+  position: static;
+}
+._6-recomendaciones {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Hind", sans-serif;
+  position: absolute;
+  left: 1099px;
+  top: 568px;
+}
+.3 {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Hind", sans-serif;
+  position: absolute;
+  left: 1230px;
+  top: 568px;
+}
+.recomendar {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Hind", sans-serif;
+  position: absolute;
+  left: 1245px;
+  top: 568px;
+}
+.availibel {
+  width: 154px;
+  height: 18px;
+  position: static;
+}
+.element {
+  background: #3b7f05;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 1145px;
+  top: 510px;
+}
+.recibiendo-contratos {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1167px;
+  top: 507px;
+}
+.product-left {
+  background: #252a61;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1594px;
+  top: 507px;
+  overflow: hidden;
+}
+.destacado {
+  color: #ffffff;
+  text-align: left;
+  font: 500 14px/14px "Hind", sans-serif;
+  position: relative;
+}
+.rait {
+  width: 100px;
+  height: 14px;
+  position: static;
+}
+.star {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 979px;
+  top: 570px;
+}
+.star2 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1000px;
+  top: 570px;
+}
+.star3 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1021px;
+  top: 570px;
+}
+.star4 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1042px;
+  top: 570px;
+}
+.star5 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1063px;
+  top: 570px;
+}
+.sed-pretium-turpis-id-orci-molestie-vitae-placerat-ligula-vulputate-duis-volutpat-ante-sed-laoreet-tempus-vivamus-diam-purus-vehicula-ac-tortor-ut-dictum-vestibulum-nisi-nulla-condimentum-felis-quis-augue-viverra-et-tempor-arcu-dapibus-sed-pretium-turpis-id-orci-molestie-vitae-placerat-ligula-vulputate-duis-volutpat-ante-sed-laoreet-tempus-vivamus-diam-purus-vehicula-ac-tortor-ut-dictum-vestibulum-nisi-nulla-condimentum-felis-quis-augue-viverra-et-tempor-arcu-dapibus-sed-pretium-turpis-id-orci-molestie-vitae-placerat-ligula-vulputate-duis-volutpat-ante-sed-laoreet-tempus {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 976px;
+  top: 609px;
+  width: 701px;
+}
+.color {
+  width: 700px;
+  height: 24px;
+  position: static;
+}
+.especialidades {
+  color: #252525;
+  text-align: left;
+  font: 500 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 977px;
+  top: 877px;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n {
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 1109px;
+  top: 874px;
+  width: 568px;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+  text-decoration: underline;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span2 {
+  color: #666666;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span3 {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+  text-decoration: underline;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span4 {
+  color: #666666;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span5 {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+  text-decoration: underline;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span6 {
+  color: #666666;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span7 {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span8 {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+  text-decoration: underline;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span9 {
+  color: #666666;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span10 {
+  color: #57c2ef;
+  font: 300 16px/24px "Nunito", sans-serif;
+  text-decoration: underline;
+}
+.remodelaci-n-construcci-n-dise-o-de-interiores-arquitectura-construcci-n-span11 {
+  color: #666666;
+  font: 300 16px/24px "Nunito", sans-serif;
+}
+.quantity {
+  width: 95px;
+  height: 42px;
+  position: static;
+}
+.bg {
+  background: #ffffff;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 1px;
+  width: 95px;
+  height: 42px;
+  position: absolute;
+  left: 1118px;
+  top: 919px;
+}
+.4 {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1143px;
+  top: 931px;
+}
+._9 {
+  color: #666666;
+  text-align: left;
+  font: 500 16px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1158px;
+  top: 931px;
+}
+.5 {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1178px;
+  top: 931px;
+}
+.price2 {
+  width: 57px;
+  height: 22px;
+  position: static;
+}
+.q-270 {
+  color: #252525;
+  text-align: left;
+  font: 600 22px/22px "Nunito", sans-serif;
+  position: absolute;
+  left: 1472px;
+  top: 929px;
+}
+.info {
+  width: 481px;
+  height: 77px;
+  position: static;
+}
+.categorie {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 975px;
+  top: 982px;
+  overflow: hidden;
+}
+.categor-a {
+  color: #666666;
+  text-align: left;
+  font: 300 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.construcci-n-remodelaci-n-plomer-a-electricidad-alba-iles {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Nunito", sans-serif;
+  position: relative;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 977px;
+  top: 1010px;
+  overflow: hidden;
+}
+.marca {
+  color: #666666;
+  text-align: left;
+  font: 300 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.don-chito-construcciones-y-remodelaciones-s-a {
+  color: #05297f;
+  text-align: left;
+  font: 400 14px/18px "Nunito", sans-serif;
+  position: relative;
+}
+.sku {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 975px;
+  top: 1041px;
+  overflow: hidden;
+}
+.sku2 {
+  color: #666666;
+  text-align: left;
+  font: 300 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.tr-6085670457 {
+  color: #252525;
+  text-align: left;
+  font: 400 14px/18px "Nunito", sans-serif;
+  position: relative;
+}
+.like {
+  width: 34px;
+  height: 34px;
+  position: static;
+}
+.bg2 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #05297f;
+  border-width: 1px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 1543px;
+  top: 923px;
+}
+.heart {
+  position: absolute;
+  left: 1551px;
+  top: 931px;
+  overflow: visible;
+}
+.compare {
+  width: 34px;
+  height: 34px;
+  position: static;
+}
+.bg3 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #05297f;
+  border-width: 1px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 1587px;
+  top: 923px;
+}
+.libra-1 {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 1595px;
+  top: 931px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0.39px;
+  top: 0.39px;
+  overflow: visible;
+}
+.social {
+  width: 109px;
+  height: 20px;
+  position: static;
+}
+.instagram {
+  color: #252a61;
+  text-align: right;
+  font: 400 20px/20px "Font Awesome 5 Brands", sans-serif;
+  position: absolute;
+  left: 975px;
+  top: 1087px;
+}
+.twitter {
+  color: #252a61;
+  text-align: right;
+  font: 400 20px/20px "Font Awesome 5 Brands", sans-serif;
+  position: absolute;
+  left: 1023px;
+  top: 1087px;
+}
+.facebook-f {
+  color: #252a61;
+  text-align: right;
+  font: 400 20px/20px "Font Awesome 5 Brands", sans-serif;
+  position: absolute;
+  left: 1071px;
+  top: 1087px;
+}
+.button {
+  width: 231px;
+  height: 42px;
+  position: static;
+}
+.bg4 {
+  background: #fdc114;
+  border-radius: 10px;
+  width: 231px;
+  height: 42px;
+  position: absolute;
+  left: 1227px;
+  top: 919px;
+}
+.shopping-bag {
+  position: absolute;
+  left: 1246px;
+  top: 930px;
+  overflow: visible;
+}
+.solicitar-propuesta {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px/18px "Nunito", sans-serif;
+  position: absolute;
+  left: 1285px;
+  top: 931px;
+}
+.line {
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-width: 1px 0 0 0;
+  width: 28px;
+  height: 0px;
+  position: absolute;
+  left: 1275px;
+  top: 926px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.reviews {
+  position: absolute;
+  inset: 0;
+}
+.tabs {
+  width: 645px;
+  height: 31px;
+  position: static;
+}
+.descripci-n {
+  color: #252525;
+  text-align: center;
+  font: 700 18px/24px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 652px;
+  top: 1296px;
+}
+.active {
+  background: #05297f;
+  border-radius: 5px;
+  width: 212px;
+  height: 3px;
+  position: absolute;
+  left: 811px;
+  top: 1324px;
+}
+.recomendaciones-6 {
+  color: #252525;
+  text-align: center;
+  font: 700 18px/24px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 812px;
+  top: 1296px;
+}
+.informaci-n-adicional {
+  color: #252525;
+  text-align: center;
+  font: 700 18px/24px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1062px;
+  top: 1296px;
+}
+.review-1 {
+  width: 1190px;
+  height: 267px;
+  position: static;
+}
+.amanda-fox {
+  color: #252525;
+  text-align: left;
+  font: 500 18px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 1377px;
+}
+.star6 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 493px;
+  top: 1380px;
+}
+.star7 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 514px;
+  top: 1380px;
+}
+.star8 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 535px;
+  top: 1380px;
+}
+.star9 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 577px;
+  top: 1380px;
+}
+.star10 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 556px;
+  top: 1380px;
+}
+.sed-pretium-turpis-id-orci-molestie-vitae-placerat-ligula-vulputate-duis-volutpat-ante-sed-laoreet-tempus-vivamus-diam-purus-vehicula-ac-tortor-ut-dictum-vestibulum-nisi-nulla-condimentum-felis-quis-augue-viverra-et-tempor-arcu-dapibus {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 1416px;
+  width: 1190px;
+}
+.images {
+  width: 417px;
+  height: 155px;
+  position: static;
+}
+.bg5 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 365px;
+  top: 1489px;
+}
+.bg6 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 510px;
+  top: 1489px;
+}
+.bg7 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 652px;
+  top: 1489px;
+}
+.reply-1 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1539px;
+  top: 1378px;
+  overflow: hidden;
+}
+.group2 {
+  position: absolute;
+  inset: 0;
+}
+.group3 {
+  position: absolute;
+  left: 0px;
+  top: 1.12px;
+  overflow: visible;
+}
+.review-2 {
+  width: 1190px;
+  height: 267px;
+  position: static;
+}
+.sean-cavil {
+  color: #252525;
+  text-align: left;
+  font: 500 18px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 1684px;
+}
+.star11 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 476px;
+  top: 1687px;
+}
+.star12 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 497px;
+  top: 1687px;
+}
+.star13 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 518px;
+  top: 1687px;
+}
+.star14 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 560px;
+  top: 1687px;
+}
+.star15 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 539px;
+  top: 1687px;
+}
+.ut-dignissim-dignissim-elit-eget-feugiat-ex-posuere-quis-ut-tincidunt-quis-mi-vitae-accumsan-integer-erat-velit-tempor-eget-felis-id-varius-lacinia-quam-suspendisse-laoreet-enim-non-nisl-accumsan-et-feugiat-risus-tempor-ut-egestas-massa-ac-sollicitudin-suscipit {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 1723px;
+  width: 1190px;
+}
+.images2 {
+  width: 565px;
+  height: 155px;
+  position: static;
+}
+.bg8 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 365px;
+  top: 1796px;
+}
+.bg9 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 510px;
+  top: 1796px;
+}
+.bg10 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 655px;
+  top: 1796px;
+}
+.bg11 {
+  width: 130px;
+  height: 155px;
+  position: absolute;
+  left: 800px;
+  top: 1796px;
+}
+.reply-12 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1539px;
+  top: 1685px;
+  overflow: hidden;
+}
+.group4 {
+  position: absolute;
+  left: 0px;
+  top: 1.12px;
+  overflow: visible;
+}
+.review-3 {
+  width: 1190px;
+  height: 135px;
+  position: static;
+}
+.roi-semple {
+  color: #252525;
+  text-align: left;
+  font: 500 18px/24px "Hind", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 1991px;
+}
+.star16 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 483px;
+  top: 1994px;
+}
+.star17 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 504px;
+  top: 1994px;
+}
+.star18 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 525px;
+  top: 1994px;
+}
+.star19 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 567px;
+  top: 1994px;
+}
+.star20 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 546px;
+  top: 1994px;
+}
+.maecenas-magna-enim-hendrerit-sed-ex-ac-cursus-faucibus-odio-vivamus-quis-placerat-orci-mauris-a-maximus-leo-proin-efficitur-orci-ex-finibus-semper-mauris-venenatis-in-nunc-ac-semper-lacus-suspendisse-orci-purus-pretium-sed-risus-quis-pellentesque-interdum-turpis-sed-maximus-velit-at-libero-rutrum-interdum-curabitur-tempor-mauris-ut-sem-dictum-congue-etiam-imperdiet-magna-non-vehicula-egestas-nunc-felis-dictum-risus-id-ornare-leo-justo-id-nunc-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-pharetra-mauris-vitae-tellus-congue-auctor {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 2030px;
+  width: 1190px;
+}
+.reply-13 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1539px;
+  top: 1992px;
+  overflow: hidden;
+}
+.group5 {
+  position: absolute;
+  left: 0px;
+  top: 1.12px;
+  overflow: visible;
+}
+.review-4 {
+  width: 1190px;
+  height: 203px;
+  position: static;
+}
+.polina-podolski {
+  color: #252525;
+  text-align: left;
+  font: 500 18px/24px "Hind", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 2166px;
+}
+.star21 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 514px;
+  top: 2169px;
+}
+.star22 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 535px;
+  top: 2169px;
+}
+.star23 {
+  color: #fdc114;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 556px;
+  top: 2169px;
+}
+.star24 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 598px;
+  top: 2169px;
+}
+.star25 {
+  color: #ffbd69;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 577px;
+  top: 2169px;
+}
+.etiam-imperdiet-magna-non-vehicula-egestas-nunc-felis-dictum-risus-id-ornare-leo-justo-id-nunc-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-pharetra-mauris-vitae-tellus-congue-auctor {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 2205px;
+  width: 1190px;
+}
+.ut-tincidunt-quis-mi-vitae-accumsan-integer-erat-velit-tempor-eget-felis-id-varius-lacinia-quam-suspendisse-laoreet-enim-non-nisl-accumsan-et-feugiat-risus-tempor {
+  text-align: left;
+  position: absolute;
+  left: 365px;
+  top: 2268px;
+  width: 580px;
+}
+.ut-tincidunt-quis-mi-vitae-accumsan-integer-erat-velit-tempor-eget-felis-id-varius-lacinia-quam-suspendisse-laoreet-enim-non-nisl-accumsan-et-feugiat-risus-tempor-span {
+  color: #fc9d9d;
+  font: 700 24px/32px "Hind", sans-serif;
+}
+.ut-tincidunt-quis-mi-vitae-accumsan-integer-erat-velit-tempor-eget-felis-id-varius-lacinia-quam-suspendisse-laoreet-enim-non-nisl-accumsan-et-feugiat-risus-tempor-span2 {
+  color: #666666;
+  font: 400 16px/24px "Roboto", sans-serif;
+}
+.donec-imperdiet-nulla-eget-fringilla-fringilla {
+  text-align: left;
+  position: absolute;
+  left: 975px;
+  top: 2268px;
+  width: 580px;
+}
+.donec-imperdiet-nulla-eget-fringilla-fringilla-span {
+  color: #fc9d9d;
+  font: 700 24px/32px "Hind", sans-serif;
+}
+.donec-imperdiet-nulla-eget-fringilla-fringilla-span2 {
+  color: #666666;
+  font: 400 16px/24px "Roboto", sans-serif;
+}
+.reply-14 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1539px;
+  top: 2167px;
+  overflow: hidden;
+}
+.group6 {
+  position: absolute;
+  left: 0px;
+  top: 1.12px;
+  overflow: visible;
+}
+.popular-products {
+  position: absolute;
+  inset: 0;
+}
+.trabajos-destacados-de-don-chito {
+  color: #252525;
+  text-align: left;
+  font: 800 54px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 404px;
+  top: 2971px;
+}
+.content2 {
+  width: 1436px;
+  height: 665px;
+  position: static;
+}
+.product-1 {
+  width: 460px;
+  height: 665px;
+  position: absolute;
+  left: 241px;
+  top: 3081px;
+}
+.img {
+  position: absolute;
+  inset: 0;
+}
+.bg12 {
+  width: 458px;
+  height: 500px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.product-2 {
+  width: 460px;
+  height: 665px;
+  position: absolute;
+  left: 1217px;
+  top: 3081px;
+}
+.product-22 {
+  width: 460px;
+  height: 665px;
+  position: absolute;
+  left: 729px;
+  top: 3081px;
+}
+.insta {
+  position: absolute;
+  inset: 0;
+}
+._1 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg13 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: -1px;
+  top: 3746px;
+}
+._2 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg14 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 319px;
+  top: 3746px;
+}
+._3 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg15 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 639px;
+  top: 3746px;
+}
+._4 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg16 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 959px;
+  top: 3746px;
+}
+._5 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg17 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 1279px;
+  top: 3746px;
+}
+._6 {
+  width: 320px;
+  height: 400px;
+  position: static;
+}
+.bg18 {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 1599px;
+  top: 3746px;
+}
+.form {
+  position: absolute;
+  inset: 0;
+}
+.name {
+  width: 580px;
+  height: 42px;
+  position: static;
+}
+.bg19 {
+  background: #ffffff;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 1px;
+  width: 580px;
+  height: 42px;
+  position: absolute;
+  left: 365px;
+  top: 2760px;
+}
+.nombre {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 2769px;
+  width: 70px;
+}
+.advantages {
+  width: 580px;
+  height: 42px;
+  position: static;
+}
+.bg20 {
+  background: #ffffff;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 1px;
+  width: 580px;
+  height: 42px;
+  position: absolute;
+  left: 365px;
+  top: 2493px;
+}
+.ventajas {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 2502px;
+  width: 91px;
+}
+.limitations {
+  width: 580px;
+  height: 42px;
+  position: static;
+}
+.bg21 {
+  background: #ffffff;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 1px;
+  width: 580px;
+  height: 42px;
+  position: absolute;
+  left: 975px;
+  top: 2493px;
+}
+.limitaciones {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 995px;
+  top: 2502px;
+  width: 91px;
+}
+.message {
+  width: 1192px;
+  height: 185px;
+  position: static;
+}
+.bg22 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #b1b1b1;
+  border-width: 1px;
+  width: 1192px;
+  height: 185px;
+  position: absolute;
+  left: 365px;
+  top: 2555px;
+}
+.mensaje {
+  color: #666666;
+  text-align: left;
+  font: 300 16px/24px "Nunito", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 2564px;
+  width: 91px;
+}
+.button2 {
+  background: #05297f;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1451px;
+  top: 2813px;
+  overflow: hidden;
+}
+.enviar {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px/18px "Hind", sans-serif;
+  position: relative;
+}
+.rait2 {
+  width: 211px;
+  height: 18px;
+  position: static;
+}
+.star26 {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1170px;
+  top: 2774px;
+}
+.star27 {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1149px;
+  top: 2774px;
+}
+.star28 {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1128px;
+  top: 2774px;
+}
+.star29 {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1107px;
+  top: 2774px;
+}
+.star30 {
+  color: #c4c4c4;
+  text-align: left;
+  font: 400 14px/14px "Font Awesome 5 Free", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1086px;
+  top: 2774px;
+}
+.calificaci-n {
+  color: #666666;
+  text-align: left;
+  font: 300 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 975px;
+  top: 2771px;
+}
+.subir-fotos {
+  color: #05297f;
+  text-align: right;
+  font: 500 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: absolute;
+  left: 1455px;
+  top: 2770px;
+}
+.recomendar2 {
+  color: #252525;
+  text-align: left;
+  font: 700 24px/24px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 365px;
+  top: 2429px;
+}
+.header {
+  width: 1920px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.menu {
+  padding: 9px 0px 9px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 130px;
+  top: 25px;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.shopping-bag2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.sign-in {
+  color: var(--neutral-black, #262d33);
+  text-align: right;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 770px;
+  top: 35px;
+}
+.sign-in2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.category {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.abous-us {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo-horizontal {
+  width: 193px;
+  height: 55px;
+  position: absolute;
+  left: 162px;
+  top: 17px;
+  overflow: hidden;
+}
+.group7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group8 {
+  position: absolute;
+  left: 55.43px;
+  top: 16.92px;
+  overflow: visible;
+}
+.subscribe {
+  position: absolute;
+  inset: 0;
+}
+.footer {
+  background: #f3f3f3;
+  padding: 70px 130px 30px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  position: absolute;
+  left: 0px;
+  top: 4146px;
+}
+.frame-427320510 {
+  display: flex;
+  flex-direction: row;
+  gap: 265px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-vertical {
+  flex-shrink: 0;
+  width: 286px;
+  height: 289px;
+  position: relative;
+  overflow: hidden;
+}
+.group9 {
+  position: absolute;
+  left: 25.15px;
+  top: 0px;
+  overflow: visible;
+}
+.group10 {
+  position: absolute;
+  left: 0.02px;
+  top: 238.18px;
+  overflow: visible;
+}
+.group11 {
+  position: absolute;
+  left: 128.59px;
+  top: 242.35px;
+  overflow: visible;
+}
+.group12 {
+  position: absolute;
+  left: 183.14px;
+  top: 250.49px;
+  overflow: visible;
+}
+.menus {
+  padding: 0px 89px 0px 58px;
+  display: flex;
+  flex-direction: row;
+  gap: 66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 700px;
+  position: relative;
+}
+.shop2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.shop-online {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.menu3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-collection {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.categories {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.gallery {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.services {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.interior-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.product-design {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about2 {
+  color: #252a61;
+  text-align: left;
+  font: 900 20px "Nunito", sans-serif;
+  position: relative;
+}
+.contact-us {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.stores-copy {
+  color: #57c2ef;
+  text-align: left;
+  font: 500 16px/26px "Nunito", sans-serif;
+  position: relative;
+}
+.group-427319792 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 24px;
+  position: static;
+}
+.instagram2 {
+  position: absolute;
+  left: 1564px;
+  top: 0px;
+  overflow: visible;
+}
+.youtube {
+  position: absolute;
+  left: 1516px;
+  top: 0px;
+  overflow: visible;
+}
+.twitter2 {
+  position: absolute;
+  left: 1612px;
+  top: 0px;
+  overflow: visible;
+}
+.ayova-design-200 {
+  color: #57c2ef;
+  text-align: center;
+  font: 500 12px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.horas-estimadas {
+  color: #252525;
+  text-align: left;
+  font: 500 14px/18px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 977px;
+  top: 932px;
+}
+.component-4 {
+  width: 703px;
+  height: 650px;
+  position: absolute;
+  left: 242px;
+  top: 311px;
+}
+.rectangle-85 {
+  width: 703px;
+  height: 405px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-86 {
+  width: 224px;
+  height: 224px;
+  position: absolute;
+  left: 0px;
+  top: 426px;
+}
+.rectangle-87 {
+  width: 224px;
+  height: 224px;
+  position: absolute;
+  left: 239px;
+  top: 426px;
+}
+.rectangle-88 {
+  width: 224px;
+  height: 224px;
+  position: absolute;
+  left: 479px;
+  top: 426px;
+}
