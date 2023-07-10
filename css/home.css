@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing:border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: var(--cl--1--);
+}
+
+body {
+    --cl--1--: #262D33;
+    background: #fff;
+}
+
+
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 50px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: var(--cl--1--);
+    text-decoration: none;    
+}
+
+.header .a-links a {
+    display: inline-block;
+    align:center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--cl--1--)
+}
+
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #fff;
+    border: none;
+    /* border-radius: px; */
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #262D33;
+    transform: scale(1.1);
+}
+
+/* hero section */
+
+
+.hero {
+    max-width: 130rem;
+     margin: 0 auto;
+     align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(2, 65, 139, 0.55), rgba(2, 65, 139, 0.55) ), url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.h1-hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20rem 0;
+    margin: 1rem;
+}
+
+.heading-primary {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 105%;
+    padding: 0 35rem;
+}
+
+.heading-description {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 0 35rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* banner */
+.banners {
+    display: flex;
+    padding: 2rem 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+.frame-3,
+.frame-3 * {
+  box-sizing: border-box;
+}
+.frame-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1479px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3__banner-1 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 692px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3__bg {
+  width: 692px;
+  height: 450px;
+  position: absolute;
+  left: -823px;
+  top: 0px;
+}
+.frame-3__bg-1-1 {
+  width: 692px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-3__rectangle-93 {
+  background: rgba(143, 146, 173, 0.65);
+  width: 692px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-3__frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 483px;
+  height: 216px;
+  position: absolute;
+  left: 65px;
+  top: 125px;
+}
+.frame-3__productos {
+  color: #ffffff;
+  text-align: left;
+  font: 500 14px/12px "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: relative;
+}
+.frame-3__nuevo-ingreso-de-accesorios-artesanales-100-nacionales {
+  color: #ffffff;
+  text-align: left;
+  font: 700 34px/42px "Nunito", sans-serif;
+  position: relative;
+  width: 465px;
+}
+.frame-3__frame-1 {
+  background: #fdc114;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-3__shop-now {
+  color: #000000;
+  text-align: left;
+  font: 500 12px/12px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-3__banner-2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 692px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3__rectangle-932 {
+  background: rgba(7, 64, 91, 0.48);
+  width: 692px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-3__frame-22 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 539px;
+  height: 216px;
+  position: absolute;
+  left: 50px;
+  top: 124px;
+}
+.frame-3__consulta-por-los-servicios-menores-con-20-de-descuento {
+  color: #ffffff;
+  text-align: left;
+  font: 700 34px/42px "Nunito", sans-serif;
+  position: relative;
+  width: 517px;
+}
+
+.sort-general-top {
+    display:flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+/* sort general */
+.sort-general,
+.sort-general * {
+  box-sizing: border-box;
+}
+.sort-general {
+  padding: 10px 182px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 409px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1409px;
+  position: relative;
+}
+.sort-general__productos-top {
+  color: #252525;
+  text-align: left;
+  font: 700 54px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.sort-general__sort {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.sort-general__all {
+  color: #252525;
+  text-align: left;
+  font: 600 14px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sort-general__ellipse-1 {
+  background: #57c2ef;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  position: relative;
+}
+.sort-general__h-ogar {
+  color: #252525;
+  text-align: left;
+  font: 600 14px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sort-general__ellipse-2 {
+  background: #57c2ef;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  position: relative;
+}
+.sort-general__accesorios {
+  color: #252525;
+  text-align: left;
+  font: 600 14px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sort-general__ellipse-3 {
+  background: #57c2ef;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  position: relative;
+}
+.sort-general__para-ellos {
+  color: #252525;
+  text-align: left;
+  font: 600 14px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sort-general__ellipse-4 {
+  background: #57c2ef;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  position: relative;
+}
+.sort-general__para-ellas {
+  color: #252525;
+  text-align: left;
+  font: 600 14px/60px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* cards   */
+.card-products-general{
+    display:flex;
+    justify-content:center;
+    padding: 1.2rem 0;
+}
+
+.frame-427320513,
+.frame-427320513 * {
+  box-sizing: border-box;
+}
+.frame-427320513 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.frame-427320513__card-ui {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 402px;
+  height: 618px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320513__rectangle-84 {
+  flex-shrink: 0;
+  width: 402px;
+  height: 396px;
+  position: relative;
+}
+.frame-427320513__heat {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320513__description-card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 402px;
+  position: relative;
+}
+.frame-427320513__new-collection {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 700 24px/150% "Nunito", sans-serif;
+  position: relative;
+  width: 392px;
+}
+.frame-427320513__frame-427320511 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 253px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+}
+.frame-427320513__we-are-proud-of-our {
+  color: var(--neutral-dark-grey, #737373);
+  text-align: left;
+  font: 400 18px/150% "Nunito", sans-serif;
+  position: relative;
+}
+.frame-427320513__stars {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-427320513__star {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320513__we-are-proud-of-our2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-16, 600 16px/150% "Urbanist", sans-serif);
+  position: relative;
+}
+.frame-427320513__frame-427320512 {
+  padding: 10px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  height: 46px;
+  position: relative;
+}
+.frame-427320513__new-collection2 {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: var(--urbanist-semibold-type-24, 600 24px/150% "Urbanist", sans-serif);
+  position: relative;
+  width: 73px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-427320513__card-ui-2 {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 402px;
+  height: 618px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320513__heat2 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320513__star3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-427320513__prices-dis {
+  background: #f5f5f5;
+  flex-shrink: 0;
+  width: 402px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320513__prices {
+  padding: 10px 10px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+}
+.frame-427320513__new-collection3 {
+  color: #b9b9b9;
+  text-align: left;
+  font: var(--urbanist-semibold-type-24, 600 24px/150% "Urbanist", sans-serif);
+  position: relative;
+  width: 73px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-427320513__disc {
+  padding: 10px 10px 7px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  width: 119px;
+  height: 46px;
+  position: absolute;
+  left: 282px;
+  top: 3px;
+}
+.frame-427320513__new-collection4 {
+  color: #d6484c;
+  text-align: left;
+  font: var(--urbanist-semibold-type-24, 600 24px/150% "Urbanist", sans-serif);
+  position: relative;
+  width: 97px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-427320513__card-ui-3 {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 402px;
+  height: 618px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-427320513__heat3 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 335px;
+  top: 28px;
+  overflow: visible;
+}
+.frame-427320513__star5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
