@@ -1,0 +1,1250 @@
+.recomendaciones,
+.recomendaciones * {
+  box-sizing: border-box;
+}
+.recomendaciones {
+  background: var(--light-system-background-secondary, #f7f7fc);
+  width: 1440px;
+  height: 1223px;
+  position: relative;
+  overflow: hidden;
+}
+.reviews {
+  position: absolute;
+  inset: 0;
+}
+.container {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 288px;
+  top: 285px;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 768px;
+  top: 500px;
+}
+.rectangle-6 {
+  background: #0764e3;
+  border-radius: 28px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-18 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.arrow-chevron-right {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 296px;
+  top: 480px;
+}
+.chat-box {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.chat-container {
+  background: var(--light-fills-color-text-field-2, #f6f6f7);
+  border-radius: 8px;
+  padding: 0px 12px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 444px;
+  height: 67px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.chat-autolayout {
+  padding: 11px 0px 0px 11px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.messages {
+  padding: 0px 8px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.write-message-in-here {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: relative;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.container2 {
+  border-radius: 4px;
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.editor-insert-emoticon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.round-editor-insert-emoticon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 426px;
+  width: 496px;
+}
+.domingo-11-jun-2023 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 393px;
+}
+.shoo-phar-dhie {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 381px;
+}
+.product {
+  width: 186px;
+  height: 48px;
+  position: static;
+}
+._25 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 336px;
+}
+.headphone-joss {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 309px;
+}
+.container3 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 312px;
+  top: 309px;
+}
+.container4 {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 864px;
+  top: 285px;
+}
+.button2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1344px;
+  top: 500px;
+}
+.arrow-chevron-right2 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox2 {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 872px;
+  top: 480px;
+}
+.round-editor-insert-emoticon2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua2 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 426px;
+  width: 496px;
+}
+.domingo-11-jun-20232 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 1238px;
+  top: 393px;
+}
+.shoo-phar-dhie2 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 381px;
+}
+._252 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 336px;
+}
+.headphone-joss2 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 309px;
+}
+.container5 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 888px;
+  top: 309px;
+}
+.container6 {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 288px;
+  top: 599px;
+}
+.button3 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 768px;
+  top: 814px;
+}
+.arrow-chevron-right3 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox3 {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 296px;
+  top: 794px;
+}
+.round-editor-insert-emoticon3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua3 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 740px;
+  width: 496px;
+}
+.domingo-11-jun-20233 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 707px;
+}
+.shoo-phar-dhie3 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 695px;
+}
+._253 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 650px;
+}
+.headphone-joss3 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 623px;
+}
+.container7 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 312px;
+  top: 623px;
+}
+.container8 {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 288px;
+  top: 913px;
+}
+.button4 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 768px;
+  top: 1128px;
+}
+.arrow-chevron-right4 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox4 {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 296px;
+  top: 1108px;
+}
+.round-editor-insert-emoticon4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua4 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 1054px;
+  width: 496px;
+}
+.domingo-11-jun-20234 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 1021px;
+}
+.shoo-phar-dhie4 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 1009px;
+}
+._254 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 964px;
+}
+.headphone-joss4 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 937px;
+}
+.container9 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 312px;
+  top: 937px;
+}
+.container10 {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 864px;
+  top: 599px;
+}
+.button5 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1344px;
+  top: 814px;
+}
+.arrow-chevron-right5 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox5 {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 872px;
+  top: 794px;
+}
+.round-editor-insert-emoticon5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua5 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 740px;
+  width: 496px;
+}
+.domingo-11-jun-20235 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 1238px;
+  top: 707px;
+}
+.shoo-phar-dhie5 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 695px;
+}
+._255 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 650px;
+}
+.headphone-joss5 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 623px;
+}
+.container11 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 888px;
+  top: 623px;
+}
+.container12 {
+  background: var(--light-system-background-primary, #ffffff);
+  border-radius: 8px;
+  width: 544px;
+  height: 290px;
+  position: absolute;
+  left: 864px;
+  top: 913px;
+}
+.button6 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1344px;
+  top: 1128px;
+}
+.arrow-chevron-right6 {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  overflow: visible;
+}
+.chatbox6 {
+  background: var(--light-base-color-white, #ffffff);
+  border-radius: 8px;
+  padding: 0px 20px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 464px;
+  height: 79px;
+  position: absolute;
+  left: 872px;
+  top: 1108px;
+}
+.round-editor-insert-emoticon6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._24-basic-paperclip6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua6 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 1054px;
+  width: 496px;
+}
+.domingo-11-jun-20236 {
+  color: var(--light-text-color-body-2, #9a9ab0);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 1238px;
+  top: 1021px;
+}
+.shoo-phar-dhie6 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 888px;
+  top: 1009px;
+}
+._256 {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 400 12px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 964px;
+}
+.headphone-joss6 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 952px;
+  top: 937px;
+}
+.container13 {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 888px;
+  top: 937px;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 288px;
+  top: 234px;
+}
+.todas {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: relative;
+}
+.no-le-dos {
+  color: var(--light-text-color-body-1, #92929d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: relative;
+}
+.no-contestados {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: relative;
+}
+.reviews2 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 31px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 288px;
+  top: 112px;
+}
+.mis-productos {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 24px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 288px;
+  top: 181px;
+}
+.side-menu {
+  position: absolute;
+  inset: 0;
+}
+.container14 {
+  background: var(--light-system-background-primary, #ffffff);
+  width: 256px;
+  height: 1213px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.divider {
+  border-style: solid;
+  border-color: var(--light-separators-colors-secondary, #e1e1e1);
+  border-width: 1px 0 0 0;
+  width: 1133px;
+  height: 0px;
+  position: absolute;
+  left: 256px;
+  top: 80px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.reviews3 {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 728px;
+}
+.menu {
+  width: 224px;
+  height: 56px;
+  position: static;
+}
+.menu-active {
+  background: #fdc114;
+  border-radius: 8px;
+  width: 224px;
+  height: 56px;
+  position: absolute;
+  left: 16px;
+  top: 736px;
+}
+.recomendaciones2 {
+  color: var(--light-base-color-white, #ffffff);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 754px;
+}
+.comment-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 32px;
+  top: 752px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: visible;
+}
+.message {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin2 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 656px;
+}
+.menu2 {
+  width: 110px;
+  height: 24px;
+  position: static;
+}
+.mensajes {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 682px;
+}
+.comment-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 32px;
+  top: 680px;
+  overflow: hidden;
+}
+.group2 {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: visible;
+}
+.promotions {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin3 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 584px;
+}
+.anuncios {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 610px;
+}
+.history {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 32px;
+  top: 608px;
+  overflow: hidden;
+}
+.group3 {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: visible;
+}
+.transaction {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin4 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 512px;
+}
+.menu3 {
+  width: 145px;
+  height: 24px;
+  position: static;
+}
+.transacciones {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 538px;
+}
+.credit-card-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 32px;
+  top: 536px;
+  overflow: hidden;
+}
+.group4 {
+  position: absolute;
+  left: 2px;
+  top: 5px;
+  overflow: visible;
+}
+.order {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin5 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 440px;
+}
+.menu-active2 {
+  border-radius: 8px;
+  width: 224px;
+  height: 56px;
+  position: absolute;
+  left: 16px;
+  top: 448px;
+}
+.rdenes {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 466px;
+}
+.shopping-cart {
+  position: absolute;
+  left: 32px;
+  top: 464px;
+  overflow: visible;
+}
+.my-product {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin6 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 368px;
+}
+.menu4 {
+  width: 116px;
+  height: 24px;
+  position: static;
+}
+.productos {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 394px;
+}
+.shopping-bag {
+  position: absolute;
+  left: 32px;
+  top: 392px;
+  overflow: visible;
+}
+.statistics {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin7 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 296px;
+}
+.menu-active3 {
+  border-radius: 8px;
+  width: 224px;
+  height: 56px;
+  position: absolute;
+  left: 16px;
+  top: 304px;
+}
+.estad-sticas {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 322px;
+}
+.chart-statistics-2 {
+  position: absolute;
+  left: 32px;
+  top: 320px;
+  overflow: visible;
+}
+.dashboard {
+  width: 256px;
+  height: 72px;
+  position: static;
+}
+.margin8 {
+  width: 256px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 224px;
+}
+.menu5 {
+  width: 123px;
+  height: 24px;
+  position: static;
+}
+.dashboard2 {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 250px;
+}
+.menu-7 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 32px;
+  top: 248px;
+  overflow: hidden;
+}
+.group5 {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: visible;
+}
+.divider2 {
+  border-style: solid;
+  border-color: var(--light-separators-colors-primary, #e1e1fb);
+  border-width: 1px 0 0 0;
+  width: 224px;
+  height: 0px;
+  position: absolute;
+  left: 16px;
+  top: 208px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.store {
+  width: 256px;
+  height: 80px;
+  position: static;
+}
+.margin9 {
+  width: 256px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.store2 {
+  width: 167px;
+  height: 64px;
+  position: static;
+}
+.logo {
+  background: var(--light-fills-color-image-placeholder, #e2e2ea);
+  border-radius: 8px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 32px;
+  top: 120px;
+}
+.broto-store {
+  color: var(--light-text-color-title, #11142d);
+  text-align: left;
+  font: 700 16px/120% "Nunito", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 133px;
+}
+.verificado {
+  color: var(--light-text-link-color-purple, #5541d7);
+  text-align: left;
+  font: 700 9px/110% "Nunito", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 160px;
+}
+.header {
+  width: 1440px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.menu6 {
+  padding: 9px 0px 9px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 133px;
+  top: 11px;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.shopping-bag2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.heart {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.menu7 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 586px;
+  top: 35px;
+}
+.sign-in {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.category {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.abous-us {
+  color: var(--neutral-black, #262d33);
+  text-align: left;
+  font: 600 14px/150% "Nunito", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo-horizontal {
+  width: 193px;
+  height: 55px;
+  position: absolute;
+  left: 162px;
+  top: 17px;
+  overflow: hidden;
+}
+.group6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group7 {
+  position: absolute;
+  left: 55.43px;
+  top: 16.92px;
+  overflow: visible;
+}
